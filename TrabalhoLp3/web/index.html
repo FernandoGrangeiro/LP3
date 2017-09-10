@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Pagina Principal</title>
+    </head>
+    <style type ="text/css">
+        div{
+            margin-left: 15px;
+            padding: 20px;
+            border: 1px solid #000000;
+            width: 20%;
+        }
+
+
+    </style>
+    <body>
+        <h1>Exemplo de uso de FrontController</h1>
+
+        <a href="FrontControllerServlet?control=Index">Lista</a>
+        <br>
+        <br>
+        <form action ="FrontControllerServlet?control=Index " method ="post">
+
+            <div>
+                <span>Número  </span><input type="number">
+
+                <br>
+                <br>
+
+                <span>Saldo  </span><input type ="number">
+
+                <br>
+                <br>
+
+                <input type ="submit" value="Inserir Conta"> </input>
+            </div>
+        </form>
+
+        <br>
+        <br>
+        <form action ="FrontControllerServlet?control=Index " method ="post">
+
+
+            <div>
+                <span>Número  </span><input type="number">
+
+                <br>
+                <br>
+
+                <input type ="submit" value="Buscar Conta"> </input>
+            </div>
+        </form> 
+
+        <br>
+        <br>
+        <form action ="FrontControllerServlet?control=Index " method ="post">
+
+            <div>
+                <span>Número  </span><input type="number">
+
+                <br>
+                <br>
+
+                <input type ="submit" value="Remover Conta"> </input>
+            </div>
+        </form>
+
+        <br>
+        <br>
+        <form action ="FrontControllerServlet?control=Index " method ="post">
+
+            <div>
+                <span>Número  </span><input type="number">
+
+                <br>
+                <br>
+
+                <span>Saldo  </span><input type ="number">
+                <br>
+                <br>
+
+                <input type ="submit" value="Atualizar Conta"> </input>
+            </div>
+        </form>
+
+
+    </body>
+</html> 
